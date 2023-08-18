@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: "Inter";
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+header {
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    background-color: rgb(255, 0, 0);
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 10px;
+
+}
+
+/* HEADER */
+header > div#headerTop {
+    background-color: rgb(110, 0, 0);
+    height: 50px;
+}
+div#headerTop{
+    padding-top: 2px;
+}
+img#headerIcon1 {
+    margin-right: 500px;
+    height: 40px;
+    width: 40px;
+}
+
+img#headerIcon2 {
+    margin-right: 500px;
+    height: 45px;
+    width: 45px;
+}
+
+img#headerIcon3 {
+    margin-right: 0px;
+    height: 40px;
+    width: 40px;
+}
+
+header > h1#logo {
+    display: inline-block;
+    text-align: center;
+    font-weight: 800;
+    background-color: white;
+    color: rgb(255, 0, 0);
+    padding: 8px;
+    border-radius: 15px;
+    margin-right: 50px;
+    margin-left: 20px;
+    width: 100px;
+}
+
+header > h1#logo:hover{
+    
+} 
+
+header > h1 > span#logo {
+    color: rgb(110, 0, 0);
+}
+
+header > input#searchBar {
+    font-size: 1.2em;
+    display: inline-block;
+    font-weight: 300;
+    text-align: left;
+    text-indent: 10px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+    margin-right: 300px;
+    width: 600px;
+}
+
+header > p#searchMensage {
+    display: inline-block;
+}
+
+header > a {
+    font-size: 1.4em;
+    margin-right: 150px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header > a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+main > section#proposal {
+    text-align: center;
+    align-content: center;
+}
+
+main > section#proposal > img {
+    height: 160px;
+    width: 160px;
+    display: inline-block;
+    margin: 50px 130px 0px;
+}
+
+.proposals { 
+    width: 220px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+h1.proposals {
+    display: inline-block;
+    font-size: 1.4em;
+    margin-bottom: 0px;
+}
+
+p.proposals {
+    display: inline-table;
+    width: 260px;
+    font-size: 0.8em;
+    margin: 50px 80px;
+}
